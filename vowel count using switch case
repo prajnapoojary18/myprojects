@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Trail3 {
+
+        public static void main(String[] args)
+        {
+            char word;
+            int i=5;
+            for(int n=0;n<i;n++) {
+                System.out.println("Enter word: ");
+                Scanner sc = new Scanner(System.in);
+                word = sc.next().charAt(0);
+                {
+                    switch (word) {
+                        case 'a':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'e':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'i':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'o':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'u':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'A':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'E':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'I':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'O':
+                            System.out.println("its is a vowels");
+                            break;
+                        case 'U':
+                            System.out.println("its is a vowels");
+                            break;
+                        default:
+                            System.out.println("its a consonant");
+                    }
+                }
+            }
+        }
+    }
+
